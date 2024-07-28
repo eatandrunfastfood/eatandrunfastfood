@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat And Run</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #00ff00, #000000);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .menu-item {
+            display: block;
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: white;
+            text-decoration: none;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="/mnt/data/7A0F3A3C-7509-4217-BDFA-5EC189D688B1.png" alt="Eat And Run Logo">
+        <a class="menu-item" href="https://yourrestaurantwebsite.com">سایت</a>
+        <a class="menu-item" href="https://www.instagram.com/eatandrun2024?igsh=dGZ4bmFoeHdveHFt&utm_source=qr">اینستاگرام</a>
+        <a class="menu-item" href="https://yourrestaurantmenu.com">منوی رستوران</a>
+    </div>
+</body>
+</html>
